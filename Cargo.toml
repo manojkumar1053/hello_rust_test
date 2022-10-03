@@ -1,0 +1,15 @@
+[package]
+name = "hello_rust_test"
+version = "0.1.0"
+authors = ["Manoj Yadav <manoj@gmail.com>"]
+edition = "2022"
+
+[dependencies]
+
+[dependencies.pyo3]
+version = "0.17.1"
+features = ["extension-module"]
+
+[lib]
+name = "hello_rust_test"
+crate-type = ["cdylib"]
