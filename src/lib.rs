@@ -4,7 +4,8 @@ use pyo3::wrap_pyfunction;
 
 #[pyfunction]
 fn say_hello() {
-    println!("saying hello from Rust!,Don't be rusty!");
+    println!("Hello from Rust!");
+    println!("Don't be rusty!");
 }
 
 
